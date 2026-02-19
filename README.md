@@ -1,4 +1,4 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-yellow.svg?style=for-the-badge)](https://github.com/custom-components/hacs) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/luuuis/hass_omie?label=Latest%20release&style=for-the-badge)](https://github.com/luuuis/hass_omie/releases) [![GitHub all releases](https://img.shields.io/github/downloads/luuuis/hass_omie/total?style=for-the-badge)](https://github.com/luuuis/hass_omie/releases)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-yellow.svg?style=for-the-badge)](https://github.com/custom-components/hacs) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ir0nyPT/hass_omie?label=Latest%20release&style=for-the-badge)](https://github.com/Ir0nyPT/hass_omie/releases) [![GitHub all releases](https://img.shields.io/github/downloads/Ir0nyPT/hass_omie/total?style=for-the-badge)](https://github.com/Ir0nyPT/hass_omie/releases)
 
 # OMIE Home Assistant Integration
 
@@ -9,9 +9,9 @@ NEMO)
 for managing the Iberian Peninsula's day-ahead and intraday electricity markets.
 
 💶 Follow the day-ahead [Spot prices](https://www.omie.es/en/spot-hoy) for 🇵🇹 and 🇪🇸.  
-📈 Use sensor attributes to [graph hourly prices](https://github.com/luuuis/hass_omie/wiki/ApexChartsExamples).  
-🧾 [Estimate your power bill](https://github.com/luuuis/hass_omie/wiki/Tarifários-Portugal) based on the spot prices.  
-💡 [Check out our Wiki](https://github.com/luuuis/hass_omie/wiki) for examples!
+📈 Use sensor attributes to [graph hourly prices](https://github.com/Ir0nyPT/hass_omie/wiki/ApexChartsExamples).  
+🧾 [Estimate your power bill](https://github.com/Ir0nyPT/hass_omie/wiki/Tarifários-Portugal) based on the spot prices.  
+💡 [Check out our Wiki](https://github.com/Ir0nyPT/hass_omie/wiki) for examples!
 
 <img alt="Screenshot of OMIE sensors" src="https://user-images.githubusercontent.com/161006/235292328-14b232dd-9d64-4030-a297-53e10a345cf1.jpg"  width="640"></img>  
 <img alt="Screenshot of OMIE graphs using ApexCharts card" src="https://user-images.githubusercontent.com/161006/236689344-10f097c4-c47d-4833-b791-c4da7c188e6d.jpg" width="640"></img>
@@ -40,7 +40,7 @@ Use [HACS](https://hacs.xyz) (preferred) or follow the manual instructions below
 
 1. Open `Integrations` inside the HACS configuration.
 1. Click on the 3 dots in the top-right corner and select `Custom Repositories`.
-1. Paste in https://github.com/luuuis/hass_omie and select `Integration` as type.
+1. Paste in https://github.com/Ir0nyPT/hass_omie and select `Integration` as type.
 1. Once installation is complete, restart Home Assistant.
 
 <details>
@@ -48,7 +48,7 @@ Use [HACS](https://hacs.xyz) (preferred) or follow the manual instructions below
 
 ### **Manual installation**
 
-1. Download `hass_omie.zip` from the latest release in https://github.com/luuuis/hass_omie/releases/latest
+1. Download `hass_omie.zip` from the latest release in https://github.com/Ir0nyPT/hass_omie/releases/latest
 2. Unzip into `<hass_folder>/config/custom_components`
     ```shell
     $ unzip hass_omie.zip -d <hass_folder>/custom_components/omie
